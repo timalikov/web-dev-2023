@@ -1,0 +1,82 @@
+*{
+    background: #f0f2f5;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    max-width: 100%;
+}
+
+.main-text{
+    float: left;
+    margin: 13.5% 8.5%;
+    color: #1c1e21;
+    width: 50%;
+}
+
+.slogan{
+    margin-top: -10px;
+    margin-left: 30px;
+    font-size: 28px;    
+    width: 80%;
+}
+
+.logo{
+    height: 106px;
+}
+.submitboxOut{
+    vertical-align: top;
+    float: right;
+    position: relative;
+    right: 145px;
+    top: 85px;
+}
+
+.submitbox{
+    height: 456px;
+    width: 396px;
+    display: block;
+    padding-bottom: 24px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+    height: 314px;
+
+}
+
+form{
+    background: #fff;
+}
+
+.emailbox{
+    margin: 5px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border-radius: 8px;
+    border: 1px solid #dddfe2;
+    height: 22px;
+    background: #fff;
+}
+
+button{
+    border-radius: 6px;
+    text-align: center;
+    border: none;
+}
+
+.login{
+    height: 48px;
+    width: 364px;
+    font-size: 20px;
+    background: #1877f2;
+    color: #fff;
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
