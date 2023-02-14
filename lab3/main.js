@@ -18,7 +18,7 @@ function AddTask(){
     let taskDetails = `<label class="list-group-item" id="myText">
             <input class="form-check-input me-1" type="checkbox" value="" id="myCheckbox">
             ${taskName}
-            <button class="delete-button float-end"><i class="fas fa-trash"></i></button>
+            <button class="delete-button float-end" onclick="deleteCheckbox(event)"><i class="fas fa-trash"></i></button>
         </label>`;
     if(taskName){
         listGroup.insertAdjacentHTML('beforeend', taskDetails);
